@@ -1,0 +1,19 @@
+Source: jpexs-decompiler
+Section: editors
+Priority: optional
+Maintainer: James Lu <bitflip3@gmail.com>
+Build-Depends: debhelper (>= 10), ant
+Standards-Version: 3.9.8
+Homepage: https://www.free-decompiler.com/flash/
+Vcs-Git: https://github.com/utopia-repository/jpexs-decompiler.git
+Vcs-Browser: https://github.com/utopia-repository/jpexs-decompiler.git
+
+Package: ffdec
+Architecture: all
+Depends: ${misc:Depends},
+         default-jre (>= 2:1.8~) | java8-runtime
+Provides: jpexs-decompiler
+Description: Flash SWF decompiler and editor
+ JPEXS Free Flash Decompiler (FFDec) is a cross-platform, open source flash SWF
+ decompiler and editor. It can extract resources, convert SWF to FLA, edit
+ ActionScript, and replace images, sounds, texts or fonts.

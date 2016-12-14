@@ -1,0 +1,3 @@
+debian/wrappers/ffdec usr/bin
+debian/ffdec.desktop usr/share/applications
+dist/* usr/share/java/ffdec
